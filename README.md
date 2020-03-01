@@ -21,3 +21,13 @@ docker-compose up -d
 
 the instance is now accessible on the host at ports 9004, proceed to access the Web browser at http://127.0.0.1:9004/
 
+if you want change default access key and secret key you can use this environment
+
+```bash
+      MINIO_ACCESS_KEY: new
+      MINIO_SECRET_KEY: new123
+      MINIO_ACCESS_KEY_OLD: minio
+      MINIO_SECRET_KEY_OLD: minio123
+```
+
+
